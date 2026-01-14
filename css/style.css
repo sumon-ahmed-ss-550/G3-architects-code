@@ -74,22 +74,6 @@ main > section {
 }
 
 /* Navbar */
-header .dynamic-arc {
-  position: sticky;
-  top: 0;
-  font-size: 28px;
-  padding: 10px 0;
-  background-color: pink;
-}
-header .dynamic-arc .arc {
-  color: tomato;
-}
-header .dynamic-arc .bangla {
-  color: red;
-}
-header .dynamic-arc .desh {
-  color: green;
-}
 .navbar {
   justify-content: space-between;
   align-items: center;
