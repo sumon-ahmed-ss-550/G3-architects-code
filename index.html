@@ -10,13 +10,20 @@
   <body class="work-sans-font">
     <!-- Header -->
     <header class="bg-light">
+      <marquee class="dynamic-arc fw-regular" behavior="" direction="ltr"
+        >I am architect and my team from
+        <q
+          ><span class="bangla fw-bold">Bangla</span
+          ><span class="desh fw-bold">desh</span></q
+        ></marquee
+      >
       <div class="container">
         <!-- Navbar -->
-        <nav class="navbar">
+        <nav class="navbar display-flex">
           <a href="" class="navbar-brand text-decoration dark-light">
-            <h2 class="dark-gray fw-bold">G3 Architects</h2>
+            <h2 class="dark-gray fw-bold">G5 Architects</h2>
           </a>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav display-flex">
             <li class="nav-item">
               <a href="#" class="nav-link text-decoration dark-light fw-regular"
                 >Home</a
@@ -50,13 +57,38 @@
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don't look even
             </p>
-            <button type="button" class="bg-primary fw-semibold btn">
-              Explore More
-            </button>
+            <button type="button" class="fw-semibold btn">Explore More</button>
           </div>
           <img class="banner-image" src="./images/banner.png" alt="" />
         </div>
       </div>
     </header>
+
+    <!-- Main -->
+    <main class="container">
+      <section class="teams display-flex">
+        <div class="teams-img-content">
+          <img src="./images/team1.png" alt="" />
+          <img src="./images/team2.png" alt="" />
+          <img src="./images/team3.png" alt="" />
+          <img src="./images/team4.png" alt="" />
+        </div>
+        <div class="team-features">
+          <h3 class="feature-title">
+            <span class="quickList dark-extra-light fw-regular"
+              >Quick list</span
+            >
+            <span class="ofOur dark-gray">of Our</span>
+            <span class="feature">Features</span>
+          </h3>
+          <p class="feature-text dark-extra-light fs-16 fw-regular">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even
+          </p>
+          <button class="btn" type="button">Explore More</button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
