@@ -82,6 +82,8 @@
   list-style-type: none;
 }
 .navbar .nav-link {
+  display: block;
+  text-align: center;
   font-size: 1.12rem;
 }
 
@@ -108,4 +110,23 @@
 }
 .banner .banner-image {
   width: 100%;
+}
+
+/* Responsive area */
+/* Header */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar .navbar-brand {
+    padding-bottom: 22px;
+  }
+  .banner {
+    padding-top: 60px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .navbar .navbar-nav {
+    flex-direction: column;
+  }
 }
