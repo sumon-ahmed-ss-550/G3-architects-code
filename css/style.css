@@ -274,4 +274,7 @@ footer .footer-text {
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
   }
+  .team-features {
+    margin-left: 0;
+  }
 }
